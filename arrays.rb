@@ -15,3 +15,11 @@ puts fruit_price.shift
 # .unshift method will add 1 or more elements to beginning of array IE Boolean Operator True
 puts fruit_expense.unshift (true)
 
+# Index positions are the numbered positions inside an array. 
+# In the arrays provided above (before the methods are executed) the Index position of (3) in the fruit array would return "Dragonfruit" --- puts fruit[3]
+# Additional examples of Index are as shown below
+
+# puts fruit_price[2] = 8.30
+# puts fruit_expense[0] = false
+
+
