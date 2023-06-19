@@ -22,4 +22,7 @@ puts fruit_expense.unshift (true)
 # puts fruit_price[2] = 8.30
 # puts fruit_expense[0] = false
 
-
+# One additional array method I learned about was the .select method
+# .select returns a new array containing all elements of ary for which the given block returns a true value example shown below
+# [1,2,3,4,5].select {|num| num.even? }  will return [2,4] as they are the selected even numbers in the array.
+# .filter is an alias for .select and produces the same result
